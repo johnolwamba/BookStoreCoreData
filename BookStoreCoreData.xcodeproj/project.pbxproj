@@ -18,6 +18,10 @@
 		582ECB052855D07400D146D0 /* BookStoreCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ECB042855D07400D146D0 /* BookStoreCoreDataTests.m */; };
 		582ECB0F2855D07400D146D0 /* BookStoreCoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ECB0E2855D07400D146D0 /* BookStoreCoreDataUITests.m */; };
 		582ECB112855D07400D146D0 /* BookStoreCoreDataUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ECB102855D07400D146D0 /* BookStoreCoreDataUITestsLaunchTests.m */; };
+		582ECB252855D5C700D146D0 /* Author+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ECB1F2855D5C700D146D0 /* Author+CoreDataClass.m */; };
+		582ECB262855D5C700D146D0 /* Author+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ECB202855D5C700D146D0 /* Author+CoreDataProperties.m */; };
+		582ECB272855D5C700D146D0 /* Book+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ECB232855D5C700D146D0 /* Book+CoreDataClass.m */; };
+		582ECB282855D5C700D146D0 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ECB242855D5C700D146D0 /* Book+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,14 @@
 		582ECB0A2855D07400D146D0 /* BookStoreCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStoreCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		582ECB0E2855D07400D146D0 /* BookStoreCoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookStoreCoreDataUITests.m; sourceTree = "<group>"; };
 		582ECB102855D07400D146D0 /* BookStoreCoreDataUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookStoreCoreDataUITestsLaunchTests.m; sourceTree = "<group>"; };
+		582ECB1D2855D5C700D146D0 /* Author+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Author+CoreDataProperties.h"; sourceTree = "<group>"; };
+		582ECB1E2855D5C700D146D0 /* Author+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Author+CoreDataClass.h"; sourceTree = "<group>"; };
+		582ECB1F2855D5C700D146D0 /* Author+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Author+CoreDataClass.m"; sourceTree = "<group>"; };
+		582ECB202855D5C700D146D0 /* Author+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Author+CoreDataProperties.m"; sourceTree = "<group>"; };
+		582ECB212855D5C700D146D0 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		582ECB222855D5C700D146D0 /* Book+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataClass.h"; sourceTree = "<group>"; };
+		582ECB232855D5C700D146D0 /* Book+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataClass.m"; sourceTree = "<group>"; };
+		582ECB242855D5C700D146D0 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,14 @@
 		582ECAD92855D06F00D146D0 = {
 			isa = PBXGroup;
 			children = (
+				582ECB1D2855D5C700D146D0 /* Author+CoreDataProperties.h */,
+				582ECB1E2855D5C700D146D0 /* Author+CoreDataClass.h */,
+				582ECB1F2855D5C700D146D0 /* Author+CoreDataClass.m */,
+				582ECB202855D5C700D146D0 /* Author+CoreDataProperties.m */,
+				582ECB212855D5C700D146D0 /* Book+CoreDataProperties.h */,
+				582ECB222855D5C700D146D0 /* Book+CoreDataClass.h */,
+				582ECB232855D5C700D146D0 /* Book+CoreDataClass.m */,
+				582ECB242855D5C700D146D0 /* Book+CoreDataProperties.m */,
 				582ECAE42855D06F00D146D0 /* BookStoreCoreData */,
 				582ECB032855D07400D146D0 /* BookStoreCoreDataTests */,
 				582ECB0D2855D07400D146D0 /* BookStoreCoreDataUITests */,
@@ -269,10 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582ECB252855D5C700D146D0 /* Author+CoreDataClass.m in Sources */,
 				582ECAFB2855D07400D146D0 /* main.m in Sources */,
+				582ECB282855D5C700D146D0 /* Book+CoreDataProperties.m in Sources */,
 				582ECAED2855D06F00D146D0 /* ViewController.m in Sources */,
 				582ECAF32855D06F00D146D0 /* BookStoreCoreData.xcdatamodeld in Sources */,
 				582ECAE72855D06F00D146D0 /* AppDelegate.m in Sources */,
+				582ECB262855D5C700D146D0 /* Author+CoreDataProperties.m in Sources */,
+				582ECB272855D5C700D146D0 /* Book+CoreDataClass.m in Sources */,
 				582ECAEA2855D06F00D146D0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
